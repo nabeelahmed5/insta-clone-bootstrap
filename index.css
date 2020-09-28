@@ -1,6 +1,33 @@
+body{
+
+    background-color: #f0f0f0;
+}
+
 .topbar-profile-photo{
 
     width: 2em;
     height: 2em;
     position: relative;
+}
+.story-picture{
+
+    width: 4em;
+    height: 4em;
+    position: relative;
+}
+.suggestion{
+
+    width: 3em;
+    height: 3em;
+    position: relative;
+}
+.text-size{
+
+    font-size: 17.5px;
+    
+}
+.color{
+
+    color: blue;
+    font-weight: bold;
 }

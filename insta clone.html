@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+    <title>insta clone</title>
+</head>
+
+<body>
+
+    <!-- Navebar Start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light border border-secondary">
+        <div class="container justify-content-center-md mr-md-0">
+            <a class="navbar-brand" href="#">
+                <img src="name logo.png" width="160px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav inline-item mr-md-0">
+                    <li class="nav-item list-inline-item active ml-md-5">
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door-fill"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z" />
+                            <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                        </svg>
+                    </li>
+                    <li class="nav-item list-inline-item ml-md-2">
+                        <svg width="2em" height="2em" viewBox="0 0 17 17" class="bi bi-inboxes" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M4.98 1a.5.5 0 0 0-.39.188L1.54 5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0A.5.5 0 0 1 10 5h4.46l-3.05-3.812A.5.5 0 0 0 11.02 1H4.98zm9.954 5H10.45a2.5 2.5 0 0 1-4.9 0H1.066l.32 2.562A.5.5 0 0 0 1.884 9h12.234a.5.5 0 0 0 .496-.438L14.933 6zM3.809.563A1.5 1.5 0 0 1 4.981 0h6.038a1.5 1.5 0 0 1 1.172.563l3.7 4.625a.5.5 0 0 1 .105.374l-.39 3.124A1.5 1.5 0 0 1 14.117 10H1.883A1.5 1.5 0 0 1 .394 8.686l-.39-3.124a.5.5 0 0 1 .106-.374L3.81.563zM.125 11.17A.5.5 0 0 1 .5 11H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124A1.5 1.5 0 0 1 14.117 16H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393zm.941.83l.32 2.562a.5.5 0 0 0 .497.438h12.234a.5.5 0 0 0 .496-.438l.32-2.562H10.45a2.5 2.5 0 0 1-4.9 0H1.066z" />
+                        </svg>
+                    </li>
+                    <li class="nav-item list-inline-item ml-md-2">
+                        <svg width="2em" list-item height="2em" viewBox="0 0 16 17" class="bi bi-compass"
+                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                            <path d="M6.94 7.44l4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z" />
+                        </svg>
+                    </li>
+                    <li class="nav-item list-inline-item ml-md-2">
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                        </svg>
+                    </li>
+                    <li classs="nav-item list-inline-item ml-md-2">
+                        <div
+                            class="rounded-circle overflow-hidden justify-content-center align-items-center topbar-profile-photo">
+                            <img src="p.jfif"
+                                style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <!-- Navebar End -->
+    <div class="container">
+        <div class="row">
+            <!-- Stories Strat -->
+            <div class="col-sm-7 bg-light border border-secondary inline-item" style="height: 120px;">
+                <div class="card-group mt-3">
+                <div class="ml-0 justify-content-center">
+                <center><div
+                    class="rounded-circle overflow-hidden justify-content-center align-items-center story-picture">
+                    <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+                </div>
+                <h7>khokhar</h7></center>
+            </div>
+            <div class="ml-5 justify-content-center">
+               <center> <div
+                    class="rounded-circle overflow-hidden justify-content-center align-items-center story-picture">
+                    <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+
+                </div>
+                <h7>Mota</h7></center>
+            </div>
+            <div class="ml-5">
+                <center><div
+                    class="rounded-circle overflow-hidden justify-content-center align-items-center story-picture">
+                    <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+                </div>
+                <h7>Rebel</h7></center>
+            </div>
+        </div>
+            </div>
+            <!-- Stories End -->
+            <!-- Post Start -->
+            
+            <!-- Post End -->
+            <div class="col-sm-5">
+            <!-- Suggestions Start -->    
+                <div class="card-group ">
+                <div
+                    class="rounded-circle overflow-hidden justify-content-center align-items-center mt-3 story-picture">
+                    <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+                </div>
+                <h7 class="ml-2 mt-4">ban33l_<br><p class="text-secondary">Nabeel Ahmed</p></h7>
+            </div>
+            <div class="card-group">
+            <h6 class="mt-3">Suggestions For You</h6>
+            <h6 class="mt-3 ml-5">See All</h6>
+        </div>
+        <div class="card-group ">
+            <div
+                class="rounded-circle overflow-hidden justify-content-center align-items-center mt-3 suggestion">
+                <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+            </div>
+            <h7 class="ml-2 mt-3">ban33l_<br><p class="text-secondary text-size">Nabeel Ahmed</p></h7>
+            <p class="ml-4 mt-4 color">Follow</p>
+        </div>
+        <div class="card-group ">
+            <div
+                class="rounded-circle overflow-hidden justify-content-center align-items-center mt-3 suggestion">
+                <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+            </div>
+            <h7 class="ml-2 mt-3">ban33l_<br><p class="text-secondary text-size">Nabeel Ahmed</p></h7>
+            <p class="ml-4 mt-4 color">Follow</p>
+        </div>
+        <div class="card-group ">
+            <div
+                class="rounded-circle overflow-hidden justify-content-center align-items-center mt-3 suggestion">
+                <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+            </div>
+            <h7 class="ml-2 mt-3">ban33l_<br><p class="text-secondary text-size">Nabeel Ahmed</p></h7>
+            <p class="ml-4 mt-4 color">Follow</p>
+        </div>
+        <div class="card-group ">
+            <div
+                class="rounded-circle overflow-hidden justify-content-center align-items-center mt-3 suggestion">
+                <img src="p.jfif" style=" transform: scale(1.5); width: 100%; position: absolute; left: 0;" />
+            </div>
+            <h7 class="ml-2 mt-3">ban33l_<br><p class="text-secondary text-size">Nabeel Ahmed</p></h7>
+            <p class="ml-4 mt-4 color">Follow</p>
+        </div>
+        <!-- Suggestion End -->
+        </div>
+        </div>
+    </div>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

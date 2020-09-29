@@ -31,3 +31,22 @@ body{
     color: blue;
     font-weight: bold;
 }
+.lab-flex-row{
+
+    display: flex;
+}
+.lab-flex-row-hidden{
+
+    display: none;
+}
+.text-btn{
+
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 400px;
+}
+.myalign{
+
+    text-align: end;
+
+}
